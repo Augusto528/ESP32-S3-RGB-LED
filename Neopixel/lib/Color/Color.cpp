@@ -107,3 +107,10 @@ HEX RGB_HEX(RGB valor){
     return resultado;
 }
 
+HSV HEX_HSV(HEX valor){
+    return RGB_HSV(HEX_RGB(valor));
+}
+
+HEX HSV_HEX(HSV valor){
+    return RGB_HEX(HSV_RGB(valor));
+}
