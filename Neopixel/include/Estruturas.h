@@ -11,3 +11,6 @@ struct HSV {
   float s;
   float v;
 };
+
+using HEX = uint32_t;
+
